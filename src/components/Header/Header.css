@@ -2,8 +2,9 @@
     height: 34vw;
     margin: 30px auto;
     background: url('/header_img.png') no-repeat;
-    background-size: contain;
+    /* background-size: bo; */
     position: relative;
+    background-size: cover;
 }
 .header-contents{
    position: absolute;
@@ -45,6 +46,9 @@
     }
 }
 @media (max-width:750px){
+    .header{
+        height: 49vw;
+    }
     
     .header-contents{
         max-width: 70%;

@@ -68,3 +68,13 @@
 .food-item-counter img{
   width: 30px;  
 }
+
+
+
+@media (max-width:750px){
+    .food-item{
+        width: 90%;
+        height: 95%;
+
+    }
+}
